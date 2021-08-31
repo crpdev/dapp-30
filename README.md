@@ -23,7 +23,7 @@ NPM Dependencies
     - ganache-cli
     - static-server [Frontend]
 
-D01 - SimpleSmartContract - 31/08/2021
+- D01 - SimpleSmartContract - 31/08/2021
 
     - Issue truffle init command to create a template
     - solidity version used is >=0.7.0 <0.9.0
