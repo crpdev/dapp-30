@@ -41,4 +41,21 @@ NPM Dependencies
         - To validate, issue command "static-server start" to run the server
         - Verify in web console [F12] to confirm if the contract and accounts are printed
 
+- D02 - HelloWorld - 01/09/2021
+
+    - Issue truffle init command to create a template
+    - solidity version used is >=0.7.0 <0.9.0
+    - Contracts
+        - HelloWorld.sol
+    - Add migration config for the contract
+    - Test
+        - helloworld.test.js
+        - Expected Outcome
+            - Function hello is called and string 'Hello, World!' is returned
+    - Frontend
+        - Download web3.js Library file
+        - In bundle.js, use web3 library to interact with the deployed smartcontract
+        - To validate, issue command "static-server start" or "npm run" to run the server
+        - Upon page load, the result from the function hello() must be printed on the screen
+
 
