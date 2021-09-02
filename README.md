@@ -58,4 +58,19 @@ NPM Dependencies
         - To validate, issue command "static-server start" or "npm run" to run the server
         - Upon page load, the result from the function hello() must be printed on the screen
 
+- D03 - SimpleStorage - 02/09/2021
 
+    - Issue truffle init command to create a template
+    - solidity version used is >=0.7.0 <0.9.0
+    - Contracts
+        - SimpleStorage.sol
+    - Add migration config for the contract
+    - Test
+        - simplestorage.test.js
+        - Expected Outcome
+            - Data is stored on the blockchain and is retrieved back when queried
+    - Frontend
+        - Download web3.js Library file
+        - In bundle.js, use web3 library to interact with the deployed smartcontract
+        - To validate, issue command "static-server start" or "npm run" to run the server
+        - Button on page pushes data to the blockchain and reads/ prints the value stored
