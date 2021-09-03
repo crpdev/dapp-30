@@ -74,3 +74,20 @@ NPM Dependencies
         - In bundle.js, use web3 library to interact with the deployed smartcontract
         - To validate, issue command "static-server start" or "npm run" to run the server
         - Button on page pushes data to the blockchain and reads/ prints the value stored
+
+- D04 - AdvancedStorage - 03/09/2021
+
+    - Issue truffle init command to create a template
+    - solidity version used is >=0.7.0 <0.9.0
+    - Contracts
+        - AdvancedStorage.sol
+    - Add migration config for the contract
+    - Test
+        - advancedstorage.test.js
+        - Expected Outcome
+            - Data is stored in a array on the blockchain and is retrieved back when queried. Should return the data at an index, return all elements in an array and its length
+    - Frontend
+        - Dependencies web3, webpack, webpack-cli, webpack-dev-server
+        - In bundle.js, use web3 library to interact with the deployed smartcontract
+        - To validate, issue command "static-server start" or "npm run" to run the server
+        - Button on page pushes data to the blockchain and reads/ prints the array stored
