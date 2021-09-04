@@ -103,3 +103,8 @@ NPM Dependencies
         - crud.test.js
         - Expected Outcome
             - Perform CRUD operations on a struct     
+    - Frontend
+        - Dependencies web3, webpack, webpack-cli, webpack-dev-server
+        - In bundle.js, use web3 library to interact with the deployed smartcontract
+        - To validate, issue command "static-server start" or "npm run" to run the server
+        - Perform CRUD operations
