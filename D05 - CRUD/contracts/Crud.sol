@@ -41,4 +41,8 @@ contract Crud {
         }
         revert('User does not exist!');
     }
+
+    function getCount() public view returns(uint count) {
+        return users.length;
+    }    
 }

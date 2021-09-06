@@ -108,3 +108,15 @@ NPM Dependencies
         - In bundle.js, use web3 library to interact with the deployed smartcontract
         - To validate, issue command "static-server start" or "npm run" to run the server
         - Perform CRUD operations
+
+- D06 - EtherWallet - 06/09/2021
+
+    - Issue truffle init command to create a template
+    - solidity version used is >=0.7.0 <0.9.0
+    - Contracts
+        - EtherWallet.sol
+    - Add migration config for the contract
+    - Test
+        - etherwallet.test.js
+        - Expected Outcome
+            - Perform deposit, transfer and balanceOf operations with added contols     

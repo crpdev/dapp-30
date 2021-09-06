@@ -71,9 +71,11 @@ const initApp = () => {
     const id = e.target.elements[0].value;
     crud.methods.readUser(id).call()
     .then(result => {
+      console.log(result);
       $readResult.innerHTML = `Id: ${result[0]} Name: ${result[1]}`;
     })
     .catch(_e => {
+      console.log(_e);
       $readResult.innerHTML = `Ooops... there was an error while trying to read user ${id}`;
     });
   });
