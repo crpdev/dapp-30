@@ -25,11 +25,9 @@ NPM Dependencies
 
 - D01 - SimpleSmartContract - 31/08/2021
 
-    - Issue truffle init command to create a template
-    - solidity version used is >=0.7.0 <0.9.0
+
     - Contracts
         - SimpleSmartContract.sol
-    - Add migration config for the contract
     - Test
         - simplesmartcontract.test.js
         - Expected Outcome
@@ -43,11 +41,8 @@ NPM Dependencies
 
 - D02 - HelloWorld - 01/09/2021
 
-    - Issue truffle init command to create a template
-    - solidity version used is >=0.7.0 <0.9.0
     - Contracts
         - HelloWorld.sol
-    - Add migration config for the contract
     - Test
         - helloworld.test.js
         - Expected Outcome
@@ -60,11 +55,8 @@ NPM Dependencies
 
 - D03 - SimpleStorage - 02/09/2021
 
-    - Issue truffle init command to create a template
-    - solidity version used is >=0.7.0 <0.9.0
     - Contracts
         - SimpleStorage.sol
-    - Add migration config for the contract
     - Test
         - simplestorage.test.js
         - Expected Outcome
@@ -77,11 +69,8 @@ NPM Dependencies
 
 - D04 - AdvancedStorage - 03/09/2021
 
-    - Issue truffle init command to create a template
-    - solidity version used is >=0.7.0 <0.9.0
     - Contracts
         - AdvancedStorage.sol
-    - Add migration config for the contract
     - Test
         - advancedstorage.test.js
         - Expected Outcome
@@ -94,11 +83,8 @@ NPM Dependencies
 
 - D05 - Crud - 04/09/2021
 
-    - Issue truffle init command to create a template
-    - solidity version used is >=0.7.0 <0.9.0
     - Contracts
         - Crud.sol
-    - Add migration config for the contract
     - Test
         - crud.test.js
         - Expected Outcome
@@ -111,12 +97,20 @@ NPM Dependencies
 
 - D06 - EtherWallet - 06/09/2021
 
-    - Issue truffle init command to create a template
-    - solidity version used is >=0.7.0 <0.9.0
     - Contracts
         - EtherWallet.sol
-    - Add migration config for the contract
     - Test
         - etherwallet.test.js
         - Expected Outcome
-            - Perform deposit, transfer and balanceOf operations with added contols     
+            - Perform deposit, transfer and balanceOf operations with added contols
+
+- D07 - SplitPayment - 07/09/2021
+
+    - Contracts
+        - SplitPayment.sol
+    - Test
+        - splitpayment.test.js
+        - Expected Outcome
+            - Split payment to multiple address - array of address and amounts
+            - Peform validation if the array lengths match
+            - Verify if the split payment is initiated by the owner of the contracts
