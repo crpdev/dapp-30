@@ -114,3 +114,14 @@ NPM Dependencies
             - Split payment to multiple address - array of address and amounts
             - Peform validation if the array lengths match
             - Verify if the split payment is initiated by the owner of the contracts
+
+- D08 - Deed - 08/09/2021
+
+    - Contracts
+        - Deed.sol
+    - Test
+        - deed.test.js
+        - Expected Outcome
+            - Deed is executed by the lawyer
+            - Withdraw is executed only after the date specified in earliest
+            - Withdraw is executed successfully if the above conditions are satisfied
